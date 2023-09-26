@@ -64,7 +64,7 @@ body {
 .faqList .faqQuestion:after {
 	display: block;
     position: absolute;
-    top: 75.8%;
+    top: 80%;
     right: 15px;
     width: 10px;
     height: 7px;
@@ -84,7 +84,7 @@ body {
 
 @media only screen and (min-width:1024px) {
 	.faqAccordionCard {
-		background: url("../images/bg-pattern-desktop.svg") top -282px left -561px / 103% auto no-repeat, url("../images/illustration-woman-online-desktop.svg") top 46.4%  left -84px / 51.3% auto no-repeat #fff;
+		background: url("../images/bg-pattern-desktop.svg") top 67.5% left -561px / 103% auto no-repeat, url("../images/illustration-woman-online-desktop.svg") top 46.4%  left -84px / 51.3% auto no-repeat #fff;
 	}
 	.faqAccordionCard {
 		display: -webkit-box;
