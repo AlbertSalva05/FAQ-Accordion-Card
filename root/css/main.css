@@ -11,8 +11,8 @@ a {
 }
 body {
 	min-height: 100vh;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(hsl(273, 75%, 66%)), to(hsl(240, 73%, 65%)));
 	background-image: -o-linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+	background-image: -webkit-gradient(linear, left top, left bottom, from(hsl(273, 75%, 66%)), to(hsl(240, 73%, 65%)));
 	background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     font-size: 15px;
 	font-family: 'Kumbh Sans', sans-serif;
@@ -74,6 +74,8 @@ body {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;
 }
 .faqList .faqQuestion.faq_acc_active:after {
@@ -144,9 +146,10 @@ body {
 }
 
 /* Tablet styles */
-@media only screen and (min-width: 769px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
 	.wrap {
-		padding: 0 20px;
+		margin: 0 60px;
+		padding: 0;
 	}
 	.faqAccordionCard {
 		display: -webkit-box;
@@ -156,14 +159,14 @@ body {
 		width: 660px;
 		margin: 0 auto;
 		padding: 60px 40px;
-		background: url("../images/bg-pattern-desktop.svg") top 67.5% left -559px / 103% auto no-repeat, url("../images/illustration-woman-online-desktop.svg") top 46.4%  left -84px / 51.3% auto no-repeat #fff;
+		background: url("../images/bg-pattern-desktop.svg") top 67.5% left -430px / 103% auto no-repeat, url("../images/illustration-woman-online-desktop.svg") top 40%   left -84px / 51.3% auto no-repeat #fff;
 		-webkit-box-pack: end;
 		    -ms-flex-pack: end;
 		        justify-content: flex-end;
 	}
 	.faqAccordionCard:before {
-		top: 57.2%;
-		left: -87px;
+		top: 50%;
+		left: -94px;
 		width: 160px;
 		height: 110px;
 	}
