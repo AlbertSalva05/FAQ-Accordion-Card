@@ -142,7 +142,7 @@ body {
 		padding: 0 30px 18px 0;
 	}
 	.faqList .faqQuestion.faq_acc_active {
-		padding-top: 18px 30px 0 0;
+		padding: 18px 30px 0 0;
 	}
 }
 
