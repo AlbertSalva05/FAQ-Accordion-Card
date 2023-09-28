@@ -177,6 +177,9 @@ body {
 	.faqList .faqAnswer {
 		padding: 0 20px 20px 0;
 	}
+	.faqList .faqQuestion:after {
+		right: 5px;
+	}
 }
 
 /* SP styles */
