@@ -84,6 +84,7 @@ body {
     transform: translateY(-50%) rotate(-180deg);
 }
 
+
 @media only screen and (min-width:1024px) {
 	.faqAccordionCard {
 		background: url("../images/bg-pattern-desktop.svg") top 67.5% left -561px / 103% auto no-repeat, url("../images/illustration-woman-online-desktop.svg") top 46.4%  left -84px / 51.3% auto no-repeat #fff;
@@ -98,6 +99,7 @@ body {
 		        justify-content: flex-end;
 	}
 }
+
 
 /* PC styles */
 @media print, screen and (min-width: 768px) {
@@ -146,6 +148,7 @@ body {
 	}
 }
 
+
 /* Tablet styles */
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
 	.wrap {
@@ -181,6 +184,7 @@ body {
 		right: 5px;
 	}
 }
+
 
 /* SP styles */
 @media screen and (max-width:767px) {
